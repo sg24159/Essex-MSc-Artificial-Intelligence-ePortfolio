@@ -427,7 +427,7 @@ plt.show()
 ![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_16_0.png)
     
 
-The random translation layer has the interesting effect of boosting validation accuracy above the training accuracy. This displays a great improvement in model generalization. However, the increased amount of data available for training requires much more training time. For this modelsthe epoch limit was raised to 64 and patience to 8.
+The random translation layer has the interesting effect of boosting validation accuracy above the training accuracy. This displays a great improvement in model generalization. However, the increased amount of data available for training requires much more training time. For this models, the epoch limit was raised to 64 and patience to 8.
 
 
 # Evaluate Model
@@ -548,48 +548,7 @@ ax.set_title("Confusion Matrix")
 
 # Single prediction
 
-In the misclassified examples, it’s interesting that the network’s second choice is correct. These misclassifications make sense. Deer are often brown on brown backgrounds, and frogs are green or brown on green or brown backgrounds. I believe this demonstrates that my model is relying heavily on colour and background context, with shape being a secondary factor. This reliance on colour and background likely means that my model would do very poorly in the real world where lighting conditions and backgrounds are extremely varied.
-
-
-```python
-i = 46
-my_image = X_test[i]
-print(label_nums[y_test[i][0]])
-plt.imshow(my_image)
-
-predicted_classes = model.predict(my_image.reshape(1, 32, 32, 3))[0]
-print(predicted_classes)
-
-fig, ax = plt.subplots(1, 1, figsize=(9, 2), sharey=True)
-ax.bar(label_nums, predicted_classes)
-ax.set_title("Predicted Class Distribution")
-```
-
-    cat
-    [1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 18ms/step
-    [3.43029096e-04 2.52214668e-05 1.06129041e-02 4.96638983e-01
-     1.11727946e-01 2.02684551e-01 2.43063644e-03 1.75423905e-01
-     5.37595224e-05 5.91200260e-05]
-
-
-
-
-
-    Text(0.5, 1.0, 'Predicted Class Distribution')
-
-
-
-
-    
-![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_24_2.png)
-    
-
-
-
-    
-![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_24_3.png)
-    
-
+In the misclassified example, it’s interesting that the network’s second choice is correct. The misclassification makes sense. Frogs are green or brown on green or brown backgrounds. I believe this demonstrates that my model is relying heavily on colour and background context, with shape being a secondary factor. This reliance on colour and background likely means that my model would do very poorly in the real world where lighting conditions and backgrounds are extremely varied.
 
 
 ```python
@@ -643,10 +602,6 @@ plt.imshow(my_image)
 ```
 
     cat
-
-
-
-
 
     <matplotlib.image.AxesImage at 0x764116f11330>
 
