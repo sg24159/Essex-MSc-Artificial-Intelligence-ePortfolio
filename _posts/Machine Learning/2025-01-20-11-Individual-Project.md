@@ -427,7 +427,7 @@ plt.show()
 ![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_16_0.png)
     
 
-The random translation layer has the interesting effect of boosting validation accuracy above the training accuracy. This displays a great improvement in model generalization. However, the increased amount of data available for training requires much more training time. For this models, the epoch limit was raised to 64 and patience to 8.
+The random translation layer has the interesting effect of boosting validation accuracy above the training accuracy. This displays a great improvement in model generalization. However, the increased amount of data available for training requires much more training time. For this model, the epoch limit was raised to 64 and patience to 8.
 
 
 # Evaluate Model
