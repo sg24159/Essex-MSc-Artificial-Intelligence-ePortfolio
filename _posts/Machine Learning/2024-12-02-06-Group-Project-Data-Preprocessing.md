@@ -517,7 +517,7 @@ sns.heatmap(numeric_data.corr(method='spearman'), annot=True, cmap='vlag',
 
 
     
-![png](/assets/images/data_preprocessing_11_1.png)
+![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/data_preprocessing_11_1.png)
     
 
 
@@ -550,7 +550,7 @@ sns.histplot(raw_data.dropna()['last_review_date'])
 
 
     
-![png](/assets/images/data_preprocessing_14_1.png)
+![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/data_preprocessing_14_1.png)
     
 
 
@@ -594,7 +594,7 @@ sns.boxplot(data, orient='h')
 
 
     
-![png](/assets/images/data_preprocessing_16_1.png)
+![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/data_preprocessing_16_1.png)
     
 
 
@@ -619,7 +619,7 @@ sns.boxplot(data_cleaned, orient='h')
 
 
     
-![png](/assets/images/data_preprocessing_18_1.png)
+![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/data_preprocessing_18_1.png)
     
 
 
@@ -641,7 +641,7 @@ sns.boxplot(minmax_scale(numeric_data), orient='h')
 
 
     
-![png](/assets/images/data_preprocessing_20_1.png)
+![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/data_preprocessing_20_1.png)
     
 
 
@@ -840,7 +840,7 @@ plt.show()
 
 
     
-![png](/assets/images/data_preprocessing_25_0.png)
+![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/data_preprocessing_25_0.png)
     
 
 
@@ -1032,7 +1032,7 @@ plt.tight_layout()
 
 
     
-![png](/assets/images/data_preprocessing_31_0.png)
+![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/data_preprocessing_31_0.png)
     
 
 
