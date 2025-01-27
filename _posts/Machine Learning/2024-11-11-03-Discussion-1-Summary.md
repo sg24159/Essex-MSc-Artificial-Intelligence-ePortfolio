@@ -1,5 +1,5 @@
 ---
-title: "03 Discussion 1: Summary: The importance of Human-Machine Interfaces"
+title: "03 Discussion 1: Summary: Ethics and Responsibility when Solving Engineering Problems with Software"
 category: Machine Learning
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "02 Discussion 1: Reply 2: Using AI for Incodent Response"
+title: "02 Discussion 1: Reply 2: Using AI for Incident Response"
 category: Machine Learning
 ---
 
