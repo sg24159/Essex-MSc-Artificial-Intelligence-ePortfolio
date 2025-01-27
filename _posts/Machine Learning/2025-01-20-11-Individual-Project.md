@@ -427,6 +427,8 @@ plt.show()
 ![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_16_0.png)
     
 
+The random translation layer has the interesting effect of boosting validation accuracy above the training accuracy. This displays a great improvement in model generalization. However, the increased amount of data available for training requires much more training time. For this modelsthe epoch limit was raised to 64 and patience to 8.
+
 
 # Evaluate Model
 
@@ -489,7 +491,9 @@ print(classification_report(y_test, predictions, target_names=label_nums))
     weighted avg       0.68      0.68      0.67     10000
     
 
+The final model has an accuracy of 0.69, and the same for precision and recall. The f1-score is 0.68. These values are in line with the scores obtained by the training and validation sets, displaying the model’s ability to generalize to unseen data.
 
+The precision-recall table shows that the model struggles greatly with some labels, in particular cat and bird. These results are understandable once we look at the images the network is trying to classify. 
 
 ```python
 confusion_matrix(y_test, predictions)
@@ -510,7 +514,7 @@ confusion_matrix(y_test, predictions)
            [ 22, 129,   4,   4,   4,   4,   9,  17,  19, 788]])
 
 
-
+If we look at the confusion matrix, we can see which labels the network gets mixed up the most. The top errors are cat and dog, automobile and truck, and horse and deer. This makes sense as these are all pairs of closely related items. Cats and dogs are medium-sized and frequently indoors. Autos and trucks are large, metal and in a city. Horses and deer are large with long legs, and typically in fields. The separation between airplane and ship is surprising considering they are both pointy with blue backgrounds.
 
 ```python
 import seaborn as sns
@@ -543,6 +547,8 @@ ax.set_title("Confusion Matrix")
 
 
 # Single prediction
+
+In the misclassified examples, it’s interesting that the network’s second choice is correct. These misclassifications make sense. Deer are often brown on brown backgrounds, and frogs are green or brown on green or brown backgrounds. I believe this demonstrates that my model is relying heavily on colour and background context, with shape being a secondary factor. This reliance on colour and background likely means that my model would do very poorly in the real world where lighting conditions and backgrounds are extremely varied.
 
 
 ```python
