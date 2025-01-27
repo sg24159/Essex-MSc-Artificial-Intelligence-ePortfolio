@@ -2,6 +2,7 @@
 title: ePortfolio
 ---
 
+<h2>Browse Posts by Category</h2>
 {% for category in site.categories %}
 <h3>{{category[0]}}</h3>
 <ul>
