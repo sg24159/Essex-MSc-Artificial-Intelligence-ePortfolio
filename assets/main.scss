@@ -1,0 +1,21 @@
+---
+---
+
+$brand-color:      #1a3a5c;
+$text-color:       #2c3e50;
+$background-color: #fafafa;
+$grey-color:       #7f8c8d;
+$grey-color-light: #ecf0f1;
+$grey-color-dark:  #2c3e50;
+
+$base-font-family: Georgia, "Times New Roman", serif;
+$base-font-size:   17px;
+$base-font-weight: 400;
+$base-line-height: 1.7;
+
+$content-width:    900px;
+
+$spacing-unit:     35px;
+
+@import "minima";
+@import "custom";
