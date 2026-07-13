@@ -70,7 +70,7 @@ label_nums[y_train_all[3][0]]
 
 
     
-![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_5_1.png)
+![png]({{ site.baseurl }}/assets/images/cnn_model_v4_5_1.png)
     
 
 
@@ -408,7 +408,7 @@ plt.show()
 
 
     
-![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_15_0.png)
+![png]({{ site.baseurl }}/assets/images/cnn_model_v4_15_0.png)
     
 
 
@@ -424,7 +424,7 @@ plt.show()
 
 
     
-![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_16_0.png)
+![png]({{ site.baseurl }}/assets/images/cnn_model_v4_16_0.png)
     
 
 The random translation layer has the interesting effect of boosting validation accuracy above the training accuracy. This displays a great improvement in model generalization. However, the increased amount of data available for training requires much more training time. For this model, the epoch limit was raised to 64 and patience to 8.
@@ -542,7 +542,7 @@ ax.set_title("Confusion Matrix")
 
 
     
-![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_22_1.png)
+![png]({{ site.baseurl }}/assets/images/cnn_model_v4_22_1.png)
     
 
 
@@ -583,13 +583,13 @@ ax.set_title("Predicted Class Distribution")
 
 
     
-![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_25_2.png)
+![png]({{ site.baseurl }}/assets/images/cnn_model_v4_25_2.png)
     
 
 
 
     
-![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_25_3.png)
+![png]({{ site.baseurl }}/assets/images/cnn_model_v4_25_3.png)
     
 
 
@@ -609,7 +609,7 @@ plt.imshow(my_image)
 
 
     
-![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_26_2.png)
+![png]({{ site.baseurl }}/assets/images/cnn_model_v4_26_2.png)
     
 
 
@@ -638,7 +638,7 @@ fig.tight_layout()
 
 
     
-![png](/Essex-MSc-Artificial-Intelligence-ePortfolio/assets/images/cnn_model_v4_27_1.png)
+![png]({{ site.baseurl }}/assets/images/cnn_model_v4_27_1.png)
     
 
 
