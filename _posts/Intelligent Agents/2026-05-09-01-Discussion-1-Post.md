@@ -1,5 +1,5 @@
 ---
-title: "01 Discussion 1: Agent Based Systems: Initial Post"
+title: "01 Discussion 1: Agent Based Systems: Initial Post: LLMs do not Solve the Challenges of Multi-Agent Systems"
 category: Intelligent Agents
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "02 Discussion 1: Agent Based Systems: Response 1"
+title: "02 Discussion 1: Agent Based Systems: Response 1: Rules vs Neurons"
 category: Intelligent Agents
 ---
 

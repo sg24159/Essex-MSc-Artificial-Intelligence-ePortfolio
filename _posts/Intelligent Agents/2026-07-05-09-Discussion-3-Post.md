@@ -1,5 +1,5 @@
 ---
-title: "09 Discussion 3: Ethics of Generative Deep Learning: Initial Post"
+title: "09 Discussion 3: Ethics of Generative Deep Learning: Initial Post: Gen AI and Journalism"
 category: Intelligent Agents
 ---
 

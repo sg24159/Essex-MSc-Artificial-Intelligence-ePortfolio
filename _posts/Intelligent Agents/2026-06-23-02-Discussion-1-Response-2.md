@@ -1,5 +1,5 @@
 ---
-title: "02 Discussion 1: Agent Based Systems: Response 2"
+title: "02 Discussion 1: Agent Based Systems: Response 2: The Future of Hybrid Distributed Agents"
 category: Intelligent Agents
 ---
 

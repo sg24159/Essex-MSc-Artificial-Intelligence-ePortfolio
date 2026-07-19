@@ -1,5 +1,5 @@
 ---
-title: "03 Discussion 1: Agent Based Systems: Summary"
+title: "03 Discussion 1: Agent Based Systems: Summary: Oversight is Key"
 category: Intelligent Agents
 ---
 
